@@ -1,0 +1,29 @@
+
+svg {
+    background-color: wheat;
+    margin-top: 20px;
+    box-shadow: inset;
+    border-radius: 5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bar{
+   fill: lightblue;
+   border: 2px solid black;
+}
+.bar:hover{
+    fill: blue
+}
+#tooltip{
+
+}
+#tooltip[visible {
+    background-color: rgba(82, 2, 2, 0.8);
+    color: white;
+    font-size: 14px;
+}
