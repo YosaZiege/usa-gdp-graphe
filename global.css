@@ -19,10 +19,8 @@ body {
 .bar:hover{
     fill: blue
 }
-#tooltip{
 
-}
-#tooltip[visible {
+#tooltip:visible {
     background-color: rgba(82, 2, 2, 0.8);
     color: white;
     font-size: 14px;
